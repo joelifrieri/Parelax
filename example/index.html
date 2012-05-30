@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Parelax</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="../parelax.js"></script>
+		<script>
+			$(document).ready(function(){
+				var optionsObject = {
+					pTag: {
+						element: $("#pTag"),
+						speed: 2
+					},
+					nav: {
+						element: $("#nav"),
+						speed: 0.5
+					}
+				};
+				$("#h1").parelax(optionsObject, 500);
+			});
+		</script>
+		<style>
+			body{
+				font: 18px/1.5em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+				color: #666;
+			}
+			#wrap{
+				width: 80%;
+				margin: 40px auto;
+			}
+			p{
+				margin-bottom: 40px;
+			}
+			h1{
+				background: red;
+				color: white;
+				text-align: center;
+				margin: 0 0 40px;
+				padding: 0;
+				line-height: 475px;
+				height: 500px;
+			}
+			#nav{
+				background: yellow;
+				font-weight: bold;
+				text-align: center;
+				padding: 20px;
+				width: 50%;
+				margin: 0 auto;	
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<p id="pTag">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+			incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+			exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iru
+			re dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla par
+			iatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia de
+			serunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisici
+			ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+			ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
+			modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu
+			m dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, su
+			nt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit ame
+			t, consectetur adipisicing elit.</p>
+			<h1 id="h1">Touch me and scroll!</h1>
+			<nav id="nav">Home About Work Contact</nav>
+		</div>
+	</body>
+</html>
