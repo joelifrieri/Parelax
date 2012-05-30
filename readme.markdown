@@ -21,7 +21,7 @@ Example: `$("#wrapper").parelax();`
 Next, create an object literal within document.ready. This is where we pass parelax the other elements to scroll and how fast to scroll them.
 Names are mostly unimportant here, with two exceptions, which we'll get into in a second:
 
-Example: `
+Example: `  
 	$(document).ready(function(){  
 
 	var optionzzz = {  
@@ -34,7 +34,8 @@ Example: `
 			"speed": 0.5  
 		}  
 	};  
-});
+});  
+
 `
 
 
