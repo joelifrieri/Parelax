@@ -22,19 +22,19 @@ Next, create an object literal within document.ready. This is where we pass pare
 Names are mostly unimportant here, with two exceptions, which we'll get into in a second:
 
 Example: `  
-	$(document).ready(function(){  
 
-	var optionzzz = {  
-		navigation: {  
-			"element": $("#nav"),  
-			"speed": 3  
-		},  
-		articleHeadline: {  
-			"element": $("#headline"),  
-			"speed": 0.5  
-		}  
-	};  
-});  
+	$(document).ready(function(){  
+		var optionzzz = {  
+			navigation: {  
+				"element": $("#nav"),  
+				"speed": 3  
+			},  
+			articleHeadline: {  
+				"element": $("#headline"),  
+				"speed": 0.5  
+			}  
+		};  
+	});  
 
 `
 
