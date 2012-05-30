@@ -1,5 +1,5 @@
 Parelax is a jQuery plugin that provides parallax scrolling on iOS.
-===================================================================
+-------------------------------------------------------------------
 
 Based on code originally by Francesco Bertelli (<a href="http://twitter.com/_ll_l">@_ll_l</a>), 
 Parelax allows you to pass a few elements to a jQuery method to easily create Parelax scrolling.
@@ -8,6 +8,17 @@ It's very light, right now, but I plan on adding lots of optional features in th
 including negative scrolling, horizontal scrolling, and callbacks for the the initial touch events.
 
 For now, feel free to fork! Thanks so much!
+
+Who made this?
+--------------
+Parelax was made by <a href="http://hugsformonsters.com">Joe Lifrieri</a> (<a href="http://twitter.com/hugsformonsters">@hugsformonsters</a>), 
+a product designer at <a href="http://hugeinc.com">HUGE</a> in Brooklyn.
+
+Big thanks to the following for all their help:
+Rafael Mumme (<a href="http://twitter.com/mumme">@mumme</a>)
+Francesco Bertelli (<a href="http://twitter.com/_ll_l">@_ll_l</a>)
+Brett Bergeron (<a href="https://twitter.com/brettbergeron">@brettbergeron</a>)
+
 
 Legal
 ------------------
